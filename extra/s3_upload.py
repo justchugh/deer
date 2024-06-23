@@ -34,7 +34,7 @@ def upload_to_s3(local_directory,
                  s3_folder, 
                  csv_log_path):
     # Initialize the S3 client securely
-    s3 = boto3.client('s3', aws_access_key_id='AKIA4DQRM2KC56IOHGHC', aws_secret_access_key='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')
+    s3 = boto3.client('s3', aws_access_key_id='aws_access_key_id', aws_secret_access_key='aws_secret_access_key')
     uploaded_files = list_files_to_upload()
     #s3 = boto3.client('s3')
     # Read the CSV and prepare for re-writing
