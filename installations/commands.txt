@@ -1,0 +1,27 @@
+cd Downloads/deer_deterrant/installations
+sudo chmod 775 install.sh
+chmod +x check_yolov5.sh
+
+crontab -e
+
+*/1 * * * * /usr/bin/python3 /home/rpi2/Downloads/deer_deterrant/extra/s3_upload.py >> /home/rpi2/Downloads/deer_deterrant/s3_upload.log>
+*/20 * * * * /usr/bin/python3 /home/rpi2/Downloads/deer_deterrant/main.py >> /home/rpi2/Downloads/deer_deterrant/main.log>
+*/10 * * * * /usr/bin/python3 /home/rpi2/Downloads/deer_deterrant/extra/dist.py >> /home/rpi2/Downloads/deer_deterrant/dist.log>
+
+crontab -l
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+Running and Testing
+-------------------
+
+
+cd Downloads/deer_deterrant/
+python3 start_system.py XX    ##[secs]
+python3 main.py
+python3 stop_system.py
+
+------------------------------------------------------------------------------------------------------------------------
+
