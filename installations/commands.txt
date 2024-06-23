@@ -1,0 +1,62 @@
+git clone https://github.com/justchugh/deer_deterrant.git
+
+--------
+cd deer_deterrant/installations
+
+--------
+sudo chmod 775 install.sh
+sudo ./install.sh 
+
+--------
+chmod +x check_yolov5.sh
+sudo ./check_yolov5.sh 
+
+--------
+python3 cam_check.py
+exit pressing "q"
+
+--------
+
+crontab -e
+
+*/15 * * * * /usr/bin/python3 /home/rpi2/deer_deterrant/extra/s3_upload.py >> /home/rpi2/deer_deterrant/deer/logs/s3_upload.log>
+*/20 * * * * /usr/bin/python3 /home/rpi2/deer_deterrant/start_system.py >> /home/rpi2/deer_deterrant/deer/logs/start_system.log>
+
+crontab -l
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------
+
+
+Running and Testing
+-------------------
+cd deer_deterrant/
+
+-------
+python3 start_system.py
+
+-------
+Run code with video output of camera
+python3 start_system.py vi
+
+-------
+XX is the number of seconds for want the code to run for
+python3 start_system.py XX
+python3 start_system.py XX vi
+
+eg: python3 start_system.py 60 vi [running for 60 seconds]
+
+-------
+STOP CODE (run in a New Tab (Ctrl+N or Ctrl+Shift+N))
+python3 stop_system.py
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+
+
+
