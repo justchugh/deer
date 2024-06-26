@@ -1,0 +1,716 @@
+YOLOv5 🚀 2024-6-23 Python-3.11.2 torch-2.3.1 CPU
+
+Fusing layers... 
+Model summary: 214 layers, 7035811 parameters, 0 gradients, 16.0 GFLOPs
+Distance from the camera: 812.50 cm
+/home/rpi1/deer_deterrant
+<class 'dict'>
+{'username': 'rpi1', 'weights': '/home/rpi1/deer_deterrant/model/deer.pt', 'device': 'cpu', 'img_size': 640, 'conf_thres': 0.25, 'iou_thres': 0.45, 'input': '/home/rpi1/deer_deterrant/deer/captures', 'output': '/home/rpi1/deer_deterrant/deer/detected', 'dupes': '/home/rpi1/deer_deterrant/deer/dupes', 'logs': '/home/rpi1/deer_deterrant/deer/logs/detections_log_latest.csv', 'view_img': False}
+Model Loading Started
+Model loaded in 14.013626 seconds
+Model loaded successfully. Starting the capture and detection threads.
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.21.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.21.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.21.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_090224_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_090224_000000.jpg
+Processing time for image: 1.943234 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.26.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.26.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.26.jpg
+Distance from the camera: 39.28 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_090229_100000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_090229_100000.jpg
+Processing time for image: 2.165417 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.32.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.32.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.32.jpg
+Distance from the camera: 39.88 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_090234_100000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_090234_100000.jpg
+Processing time for image: 1.837040 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.37.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.37.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.37.jpg
+Distance from the camera: 38.73 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_090239_100000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_090239_100000.jpg
+Processing time for image: 1.658701 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.42.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.42.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.42.jpg
+Distance from the camera: 46.71 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_090244_100000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_090244_100000.jpg
+Processing time for image: 1.545687 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.47.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.47.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.47.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_090249_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_090249_000000.jpg
+Processing time for image: 1.546953 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.52.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.52.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.52.jpg
+Distance from the camera: 24.01 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_090254_000100.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_090254_000100.jpg
+Processing time for image: 1.546110 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.57.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.57.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.02.57.jpg
+Distance from the camera: 21.12 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_090259_010000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_090259_010000.jpg
+Processing time for image: 1.556135 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.03.02.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.03.02.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.03.02.jpg
+Distance from the camera: 20.90 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_090304_000100.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_090304_000100.jpg
+Processing time for image: 1.744168 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.03.07.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.03.07.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.03.07.jpg
+Distance from the camera: 21.69 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_090309_000100.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_090309_000100.jpg
+Processing time for image: 1.537903 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.03.12.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.03.12.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.03.12.jpg
+Distance from the camera: 20.70 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_090314_000100.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_090314_000100.jpg
+Processing time for image: 1.565320 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.03.17.jpg
+main.py is started with PGID 16788 indefinitely.
+Stopped process with PID: 16788
+Stopped process with PID: 16789
+YOLOv5 🚀 2024-6-23 Python-3.11.2 torch-2.3.1 CPU
+
+Fusing layers... 
+Model summary: 214 layers, 7035811 parameters, 0 gradients, 16.0 GFLOPs
+main.py is started with PGID 18154 indefinitely.
+YOLOv5 🚀 2024-6-23 Python-3.11.2 torch-2.3.1 CPU
+
+Fusing layers... 
+Model summary: 214 layers, 7035811 parameters, 0 gradients, 16.0 GFLOPs
+Distance from the camera: 812.50 cm
+/home/rpi1/deer_deterrant
+<class 'dict'>
+{'username': 'rpi1', 'weights': '/home/rpi1/deer_deterrant/model/deer.pt', 'device': 'cpu', 'img_size': 640, 'conf_thres': 0.25, 'iou_thres': 0.45, 'input': '/home/rpi1/deer_deterrant/deer/captures', 'output': '/home/rpi1/deer_deterrant/deer/detected', 'dupes': '/home/rpi1/deer_deterrant/deer/dupes', 'logs': '/home/rpi1/deer_deterrant/deer/logs/detections_log_latest.csv', 'view_img': False}
+Model Loading Started
+Model loaded in 13.068657 seconds
+Model loaded successfully. Starting the capture and detection threads.
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.20.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.20.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.20.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091022_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091022_000000.jpg
+Processing time for image: 1.666860 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.25.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.25.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.25.jpg
+Distance from the camera: 48.84 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091027_100000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091027_100000.jpg
+Processing time for image: 1.561897 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.30.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.30.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.30.jpg
+Distance from the camera: 40.35 cm
+Distance from the camera: 124.39 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091032_200000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091032_200000.jpg
+Processing time for image: 1.559579 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.35.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.35.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.35.jpg
+Distance from the camera: 119.73 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091037_100000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091037_100000.jpg
+Processing time for image: 1.585467 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.40.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.40.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.40.jpg
+Distance from the camera: 112.06 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091042_100000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091042_100000.jpg
+Processing time for image: 1.638319 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.45.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.45.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.45.jpg
+Distance from the camera: 20.83 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091047_000100.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091047_000100.jpg
+Processing time for image: 1.554673 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.50.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.50.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.50.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091052_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091052_000000.jpg
+Processing time for image: 1.592581 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.55.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.55.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.10.55.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091057_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091057_000000.jpg
+Processing time for image: 1.540103 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.00.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.00.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.00.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091102_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091102_000000.jpg
+Processing time for image: 1.543957 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.05.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.05.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.05.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091108_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091108_000000.jpg
+Processing time for image: 1.561207 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.11.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.11.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.11.jpg
+Distance from the camera: 21.54 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091113_100000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091113_100000.jpg
+Processing time for image: 1.797242 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.16.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.16.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.16.jpg
+Distance from the camera: 21.64 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091118_100000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091118_100000.jpg
+Processing time for image: 1.570062 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.21.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.21.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.21.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091123_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091123_000000.jpg
+Processing time for image: 1.567326 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.26.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.26.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.26.jpg
+Distance from the camera: 21.85 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091128_100000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091128_100000.jpg
+Processing time for image: 2.050276 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.31.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.31.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.31.jpg
+Distance from the camera: 21.30 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091133_100000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091133_100000.jpg
+Processing time for image: 1.828595 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.36.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.36.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.36.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091138_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091138_000000.jpg
+Processing time for image: 1.684455 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.41.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.41.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.41.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091143_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091143_000000.jpg
+Processing time for image: 1.613578 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.46.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.46.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.46.jpg
+Distance from the camera: 22.12 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091148_100000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091148_100000.jpg
+Processing time for image: 1.535347 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.51.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.51.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.51.jpg
+Distance from the camera: 21.90 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091153_100000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091153_100000.jpg
+Processing time for image: 1.559334 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.56.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.56.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.11.56.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091158_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091158_000000.jpg
+Processing time for image: 1.564902 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.01.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.01.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.01.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091203_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091203_000000.jpg
+Processing time for image: 1.554717 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.06.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.06.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.06.jpg
+Distance from the camera: 46.10 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091208_100000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091208_100000.jpg
+Processing time for image: 1.543376 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.11.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.11.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.11.jpg
+Distance from the camera: 46.51 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091213_100000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091213_100000.jpg
+Processing time for image: 1.508377 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.16.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.16.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.16.jpg
+Distance from the camera: 46.09 cm
+Distance from the camera: 46.53 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091218_110000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091218_110000.jpg
+Processing time for image: 1.578368 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.21.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.21.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.21.jpg
+Distance from the camera: 46.73 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091223_010000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091223_010000.jpg
+Processing time for image: 1.551525 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.26.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.26.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.26.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091229_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091229_000000.jpg
+Processing time for image: 1.976122 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.31.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.31.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.31.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091233_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091233_000000.jpg
+Processing time for image: 1.524614 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.36.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.36.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.36.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091238_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091238_000000.jpg
+Processing time for image: 1.616609 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.41.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.41.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.41.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091243_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091243_000000.jpg
+Processing time for image: 1.572881 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.46.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.46.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.46.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091248_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091248_000000.jpg
+Processing time for image: 1.556388 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.51.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.51.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.51.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091253_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091253_000000.jpg
+Processing time for image: 1.562612 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.56.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.56.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.12.56.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091258_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091258_000000.jpg
+Processing time for image: 1.543458 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.01.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.01.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.01.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091304_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091304_000000.jpg
+Processing time for image: 1.544468 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.07.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.07.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.07.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091309_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091309_000000.jpg
+Processing time for image: 1.540412 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.12.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.12.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.12.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091314_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091314_000000.jpg
+Processing time for image: 1.563287 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.17.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.17.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.17.jpg
+Distance from the camera: 57.16 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091319_100000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091319_100000.jpg
+Processing time for image: 1.586420 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.22.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.22.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.22.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091324_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091324_000000.jpg
+Processing time for image: 1.557545 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.27.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.27.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.27.jpg
+Distance from the camera: 20.76 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091329_000100.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091329_000100.jpg
+Processing time for image: 1.559753 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.32.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.32.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.32.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091334_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091334_000000.jpg
+Processing time for image: 1.550223 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.37.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.37.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.37.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091339_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091339_000000.jpg
+Processing time for image: 1.637012 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.42.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.42.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.42.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091344_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091344_000000.jpg
+Processing time for image: 1.675045 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.47.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.47.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.47.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091350_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091350_000000.jpg
+Processing time for image: 2.349031 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.52.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.52.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.52.jpg
+Distance from the camera: 21.37 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091354_100000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091354_100000.jpg
+Processing time for image: 2.004423 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.57.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.57.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.13.57.jpg
+Distance from the camera: 21.52 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091400_100000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091400_100000.jpg
+Processing time for image: 2.107684 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.14.02.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.14.02.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.14.02.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091404_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091404_000000.jpg
+Processing time for image: 1.557387 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.14.07.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.14.07.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.14.07.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091409_000000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091409_000000.jpg
+Processing time for image: 1.545725 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.14.12.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.14.12.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.14.12.jpg
+Distance from the camera: 68.47 cm
+Distance from the camera: 28.21 cm
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091414_200000.jpg
+Backup and logging completed for: /home/rpi1/deer_deterrant/deer/detected/class/IMG_RPI1_06262024_091414_200000.jpg
+Processing time for image: 1.540257 seconds
+------------------------------------------------------------
+
+Saved image at: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.14.17.jpg
+New image detected for processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.14.17.jpg
+
+------------------------------------------------------------
+
+Processing: /home/rpi1/deer_deterrant/deer/captures/img_2024-06-26_09.14.17.jpg
+Saved image at: /home/rpi1/deer_deterrant/deer/detected/no_class/IMG_RPI1_06262024_091419_000000.jpg
+main.py is started with PGID 19083 indefinitely.
+Stopped process with PID: 19083
+Stopped process with PID: 19084
+YOLOv5 🚀 2024-6-23 Python-3.11.2 torch-2.3.1 CPU
+
+Fusing layers... 
+Model summary: 214 layers, 7035811 parameters, 0 gradients, 16.0 GFLOPs
+main.py is started with PGID 22622 indefinitely.

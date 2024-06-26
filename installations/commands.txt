@@ -8,6 +8,7 @@ sudo chmod 775 install.sh
 sudo ./install.sh 
 
 --------
+
 chmod +x check_yolov5.sh
 sudo ./check_yolov5.sh 
 
@@ -17,10 +18,16 @@ exit pressing "q"
 
 --------
 
+cd extra
+
+
+
+#### Change RPI number below before adding git
+
 crontab -e
 
-*/15 * * * * /usr/bin/python3 /home/rpi2/deer_deterrant/extra/s3_upload.py >> /home/rpi2/deer_deterrant/deer/logs/s3_upload.log>
-*/20 * * * * /usr/bin/python3 /home/rpi2/deer_deterrant/start_system.py >> /home/rpi2/deer_deterrant/deer/logs/start_system.log>
+#*/30 * * * * /usr/bin/python3 /home/rpi1/deer_deterrant/extra/s3_upload.py >> /home/rpi1/deer_deterrant/cronlogs/s3_upload.log 2>&1
+#*/15 * * * * /usr/bin/python3 /home/rpi1/deer_deterrant/start_system.py >> /home/rpi1/deer_deterrant/cronlogs/start_system.log 2>&1
 
 crontab -l
 
@@ -34,6 +41,7 @@ crontab -l
 
 Running and Testing
 -------------------
+cd ..
 cd deer_deterrant/
 
 -------
@@ -56,6 +64,23 @@ python3 stop_system.py
 
 
 ------------------------------------------------------------------------------------------------------------------------
+Testing wifi
+
+cd extra/
+
+python3 wifi.py
+
+-------
+python3 wifi.py 60
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+Running S3
+
+cd extra/
+
+python3 s3_upload.py
 
 
 

@@ -4,9 +4,19 @@ import time
 import signal
 import os
 
+# Call stop_system.py before starting the main script
+subprocess.call(["python3", os.path.join(os.path.dirname(os.path.abspath(__file__)), "stop_system.py")])
+
+
 def start_main(duration=None, view_img=False):
+    # Get the directory of the current script
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    
+    # Construct the path to main.py
+    main_py_path = os.path.join(script_dir, "main.py")
+    
     # Determine the command based on the view_img flag
-    command = "python main.py"
+    command = f"python {main_py_path}"
     if view_img:
         command += " --view-img"
 
